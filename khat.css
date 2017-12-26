@@ -265,7 +265,7 @@ header a:hover {
         background-color: rgba(255,255,255,0.5);
         left: -200%;
         padding-top: 4em;
-        -webkit-font-smoothing: antialiased; /* stop flickering in safari */
+        -webkit-font-smoothing: antialiased;
         top: 0px;
         transition: all 0.5s ease;
         border-radius:20px;
@@ -280,7 +280,7 @@ header a:hover {
         left: 0;
         cursor:crosshair;
         opacity: 0;
-        z-index: 999999; /* place in front of hamburger menu icon */
+        z-index: 999999;
     }
     #menuToggle span {
         display: block;
